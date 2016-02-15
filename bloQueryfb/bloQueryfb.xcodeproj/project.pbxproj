@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		935E3B051C70E5C800E9C051 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935E3B041C70E5C800E9C051 /* LoginViewController.swift */; };
+		935E3B071C70E94200E9C051 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935E3B061C70E94200E9C051 /* Questions.swift */; };
+		935E3B091C70EA0300E9C051 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935E3B081C70EA0300E9C051 /* Users.swift */; };
+		935E3B0B1C70EA3700E9C051 /* QuestionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935E3B0A1C70EA3700E9C051 /* QuestionTableViewController.swift */; };
+		935E3B0D1C71BE1000E9C051 /* QuesitonsandAnswersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935E3B0C1C71BE1000E9C051 /* QuesitonsandAnswersTableViewController.swift */; };
+		935E3B0F1C71BFCF00E9C051 /* AnswersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935E3B0E1C71BFCF00E9C051 /* AnswersTableViewCell.swift */; };
+		935E3B111C71CCCC00E9C051 /* Answers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935E3B101C71CCCC00E9C051 /* Answers.swift */; };
 		9369A8CB1C70E13600C0E746 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9369A8CA1C70E13600C0E746 /* AppDelegate.swift */; };
 		9369A8D01C70E13600C0E746 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9369A8CE1C70E13600C0E746 /* Main.storyboard */; };
 		9369A8D21C70E13600C0E746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9369A8D11C70E13600C0E746 /* Assets.xcassets */; };
@@ -20,6 +26,12 @@
 		4B9365DAF22B68FC056CD816 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		935E3B031C70E33E00E9C051 /* bloQueryfb-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bloQueryfb-Bridging-Header.h"; sourceTree = "<group>"; };
 		935E3B041C70E5C800E9C051 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		935E3B061C70E94200E9C051 /* Questions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		935E3B081C70EA0300E9C051 /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		935E3B0A1C70EA3700E9C051 /* QuestionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionTableViewController.swift; sourceTree = "<group>"; };
+		935E3B0C1C71BE1000E9C051 /* QuesitonsandAnswersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuesitonsandAnswersTableViewController.swift; sourceTree = "<group>"; };
+		935E3B0E1C71BFCF00E9C051 /* AnswersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswersTableViewCell.swift; sourceTree = "<group>"; };
+		935E3B101C71CCCC00E9C051 /* Answers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Answers.swift; sourceTree = "<group>"; };
 		9369A8C71C70E13600C0E746 /* bloQueryfb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bloQueryfb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9369A8CA1C70E13600C0E746 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9369A8CF1C70E13600C0E746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,6 +73,10 @@
 		935E3B011C70E1E300E9C051 /* models */ = {
 			isa = PBXGroup;
 			children = (
+				935E3B061C70E94200E9C051 /* Questions.swift */,
+				935E3B081C70EA0300E9C051 /* Users.swift */,
+				935E3B0E1C71BFCF00E9C051 /* AnswersTableViewCell.swift */,
+				935E3B101C71CCCC00E9C051 /* Answers.swift */,
 			);
 			name = models;
 			sourceTree = "<group>";
@@ -69,6 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				935E3B041C70E5C800E9C051 /* LoginViewController.swift */,
+				935E3B0A1C70EA3700E9C051 /* QuestionTableViewController.swift */,
+				935E3B0C1C71BE1000E9C051 /* QuesitonsandAnswersTableViewController.swift */,
 			);
 			name = "view controllers";
 			sourceTree = "<group>";
@@ -228,6 +246,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				935E3B091C70EA0300E9C051 /* Users.swift in Sources */,
+				935E3B0F1C71BFCF00E9C051 /* AnswersTableViewCell.swift in Sources */,
+				935E3B071C70E94200E9C051 /* Questions.swift in Sources */,
+				935E3B111C71CCCC00E9C051 /* Answers.swift in Sources */,
+				935E3B0B1C70EA3700E9C051 /* QuestionTableViewController.swift in Sources */,
+				935E3B0D1C71BE1000E9C051 /* QuesitonsandAnswersTableViewController.swift in Sources */,
 				935E3B051C70E5C800E9C051 /* LoginViewController.swift in Sources */,
 				9369A8CB1C70E13600C0E746 /* AppDelegate.swift in Sources */,
 			);
